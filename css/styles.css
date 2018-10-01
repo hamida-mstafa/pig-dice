@@ -1,0 +1,13 @@
+.player-console {
+  display: none;
+}
+img{
+  height: 10;
+  width: 20;
+}
+#rulesDefinitions{
+  display: none;
+}
+h3{
+  color: blue;
+}
