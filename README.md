@@ -9,11 +9,11 @@ You use git clone to be able to download the documents in the github
 Git
 ### Installation instruction
 ```
-Git clone https://github.com/hamida-mstafa/Quiz-Board
+Git clone https://github.com/hamida-mstafa/pig-dice
 
 ```
 # Live Link
-[Git](https://hamida-mstafa.github.io/Quiz-Board/)
+[Git]( https://hamida-mstafa.github.io/pig-dice/)
 ## Behaviours
 |Behaviour   | Input     |  Output |
 |------------|:---------:|---------------------------------:|
