@@ -42,8 +42,10 @@ body {
 
 }
 h1 {
-    color:black ;
+    color:green ;
     text-shadow: 2px 2px 4px #000000;
+    font-family: 'Faster One', cursive;
+
 }
 h2{
   color:yellow ;
@@ -52,4 +54,8 @@ h2{
 p{
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   font-style: italic;
+}
+ul{
+  font-family: 'Great Vibes', cursive;
+
 }
