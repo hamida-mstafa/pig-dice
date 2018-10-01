@@ -1,13 +1,21 @@
 .player-console {
   display: none;
 }
-img{
-  height: 10;
-  width: 20;
-}
-#rulesDefinitions{
+#rulesDefinitions {
   display: none;
 }
-h3{
+.mids {
+  height: 234px;
+  width: 258px;
+  /* padding-left: 36px;
+  padding-right: 180px;
+  padding-top: 188px;
+  padding-bottom: 394px;*/
+}
+h3 {
   color: blue;
+}
+.hams{
+  height: 234px;
+  width: 258px;
 }
