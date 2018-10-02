@@ -14,7 +14,7 @@ function Player(turn) {
   this.playerName;
 }
 
-// checking for 1
+// check for roll 1
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
   this.tempscore = 0;
@@ -25,7 +25,7 @@ Player.prototype.rollone = function() {
   }
 }
 
-// hold
+// hold button
 Player.prototype.hold = function () {
   this.totalscore += this.tempscore;
   this.tempscore = 0;
@@ -33,15 +33,8 @@ Player.prototype.hold = function () {
   alert(this.playerName + ", your turn is over, your next!");
 }
 
-// // changing turn
-// Player.prototype.changeturn = function () {
-//   if (this.roll ===1) {
-//     this.turn = false;
-//   } else {
-//     this.turn = true;
-//   }
-// }
-// check for 100
+
+// check for score 100 
 Player.prototype.winnerCheck = function () {
   if (this.totalscore >= 100) {
     alert(this.playerName + " You have won!");
